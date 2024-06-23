@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fef8ea;
+}
+
+h1{
+    font-size: 2rem;  
+    color: #0F52BA;
+    font-family: Georgia;
+}
+
+h1.hover{
+    cursor: default;
+}
+
+h2{
+    font-size: 1.5rem;  
+    color: #0F52BA;
+    font-family: Georgia;
+}
+
+nav, 
+.nav-links{
+    display: flex; 
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    color: #0F52BA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: .75rem;
+}
+
+a {
+    color: #0F52BA;
+    text-decoration: none;
+    text-decoration-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    color: darkblue;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: darkblue;
+}
+
+.pic-container{
+    float: left;
+    display: flex; 
+}
+
+.text-container{
+    margin-top: 3%;
+    margin-left: 55%;
+}
+
+.profileInfo{
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    left: 20% ; 
+}
+
+
+.contactInfo{
+    position: absolute;
+    top: 83%;
+    left: 20% ;
+    height: 17vh;
+    color: #0F52BA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.phishingpic-container{
+    float: left;
+    display: flex;
+}
+
+.phishingtext-container{
+    margin-top: 20%;
+    margin-left: 55%;
+}
+
+.phishingInfo{
+    position: absolute;
+    right: 20%;
+    top: 15%;
+    left: 20% ;
+}
+
+h3{    
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;  
+    color: #0F52BA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quotePic-container{
+    float: right;
+    display: flex; 
+}
+
+.quoteText-container{
+    margin-top: 20%;
+    margin-right: 55%;
+    height: 20vh;
+    color: #0F52BA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quoteInfo{
+    position: absolute;
+    right: 20%;
+    top: 110%;
+    left: 20% ;
+}
+
+div.scroll-container {
+    
+    position: absolute;
+    right: 20%;
+    top: 200%;
+    left: 20% ;
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 5px;
+}
+
+.cookbookTitle{
+    position: absolute;
+    right: 20%;
+    top:282%;
+    left: 25% ;
+}
+
+.cookbookText{
+    position: absolute;
+    right: 20%;
+    top: 282%;
+    left: 45% ;
+    height: 17vh;
+    color: #0F52BA;
+    font-family: Arial, Helvetica, serif;
+}
+
+.divider{
+    position: absolute;
+    right: 20%;
+    top:340%;
+    left: 20% ;
+}
+
+h6{    
+    position: absolute;
+    right: 20%;
+    top: 352%;
+    left: 20% ;
+    font-size: 1.3rem;  
+    color: #0F52BA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.beachTitle{
+    position: absolute;
+    right: 20%;
+    top: 363%;
+    left: 30% ;
+}
+
+.beachText{
+    position: absolute;
+    right: 20%;
+    top: 370%;
+    left: 30% ;
+    height: 17vh;
+    color: #0F52BA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.audioClip{
+    position: absolute;
+    right: 20%;
+    top: 395%;
+    left: 56% ;
+    height: 17vh;
+    color: #0F52BA;
+    font-family: Arial, Helvetica, serif;
+}
+
+.loraxTitle{
+    position: absolute;
+    right: 20%;
+    top: 410%;
+    left: 30% ;
+}
+
+.loraxText{
+    position: absolute;
+    right: 20%;
+    top: 417%;
+    left: 30% ;
+    height: 17vh;
+    color: #0F52BA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Youtubecontainer{
+    margin-left:41%;
+    margin-top: 225%;
+    width: 500px;
+    height: 281px;
+}
